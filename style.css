@@ -51,7 +51,7 @@ button{
     font-size: 25px;
 }
 
-.result_visor{
+.general_visor{
     width: 380px;
     height: 260px;
     background-color: black;
@@ -59,4 +59,15 @@ button{
     margin-top: 60px;
     margin-left: 110px;
     border-radius: 7px;
+    color: rgb(241, 238, 33);
+}
+
+.generic_visor{
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.tittle_visor{
+    padding-top: 10px;
 }

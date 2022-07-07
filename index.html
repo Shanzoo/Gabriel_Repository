@@ -19,19 +19,19 @@
             <div class="field_div"> 
             
                 <label for="Name"> Name: </label> 
-                <input type="name" id="Name_zur" name="Name">
+                <input type="text" id="Name" name="Name">
 
             </div>
             <div class="field_div"> 
             
-                <label for="Name"> Height: </label> 
-                <input type="number" id="Name" name="Name">
+                <label for="Height"> Height: </label> 
+                <input type="number" id="Height" name="Height">
 
             </div>
             <div class="field_div"> 
             
-                <label for="Name"> Weight:  </label> 
-                <input type="number" id="Name" name="Name">
+                <label for="Weight"> Weight:  </label> 
+                <input type="number" id="Weight" name="Weight">
 
             </div>
         </div>    
@@ -41,12 +41,26 @@
         </div class="container_resultado">
             <div class="field_div"> 
             
-                <button type="submit" id="submit">Calculate</button>
+                <button type="submit" id="submit" onclick="armazenaVariavel()">Calculate</button>
 
             </div>
 
-            <div class="result_visor">
-                aa
+            <div class="general_visor" id="visor">
+                <div class="tittle_visor">
+                    RESULTADO
+                </div>
+                <div class="generic_visor" id="name_visor">
+                    
+                </div>
+                <div class="generic_visor" id="height_visor">
+                    
+                </div>
+                <div class="generic_visor" id="weight_visor">
+                    
+                </div>
+                <div class="generic_visor" id="result_visor">
+                    
+                </div>
             </div>
         </div>
     </main>
